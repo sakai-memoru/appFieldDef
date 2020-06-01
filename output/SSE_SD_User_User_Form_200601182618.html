@@ -1,0 +1,118 @@
+﻿<div class="container">
+<div class="form">
+<div class="form-group row">
+  <label for="userId" class="col-md-2 col-form-label text-md-right">ユーザID</label>
+  <div class="col-md-10">
+    <input type="text" name="userId" id="userId" size="8" placeholder="Enter userid"   class="form-control is-valid">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="password" class="col-md-2 col-form-label text-md-right">パスワード</label>
+  <div class="col-md-10">
+    <input type="password" name="password" id="password" size="8" placeholder="Enter password"   class="form-control is-valid">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="registeredDate" class="col-md-2 col-form-label text-md-right">登録日</label>
+  <div class="col-md-10">  
+    <input type="datetime-local" name="registeredDate" id="registeredDate" size="8" step="60"  class="form-control">
+  </div>
+</div>
+<div class="form-group row">
+  <label class="col-md-2 col-form-label text-md-right">継続ログイン</label>
+  <div class="col-md-10">
+    <div class="form-check-inline">
+      <input type="checkbox" name="chk_continuousLogin" id="chk_continuousLogin" value="checked" class="form-check-input">
+    </div><small id='chk_continuousLogin' class='form-text text-muted'>次回から自動的にログインする</small>
+  </div>
+  <input type="hidden" value="" name="chk_continuousLogin" id="chk_continuousLogin" />
+</div>
+<div class="form-group row">
+  <label for="comment" class="col-md-2 col-form-label text-md-right">コメント</label>
+  <div class="col-md-10">  
+    <textarea name="comment" id="comment" cols="12" rows="3" placeholder="" class="form-control is-invalid"></textarea>
+  </div>
+</div>
+<div class="form-group row">
+  <label class="col-md-2 col-form-label text-md-right">性</label>
+  <div class="col-md-10">
+    <div class="form-check-inline">
+      <label for="male"  class="form-check-label">
+        <input type="radio" name="sex" id="male" value="male" class="form-check-input">Male
+      </label>
+    </div><div class="form-check-inline">
+      <label for="female"  class="form-check-label">
+        <input type="radio" name="sex" id="female" value="female" class="form-check-input">Female
+      </label>
+    </div>
+  </div>
+  <input type="hidden" value="" name="sex" id="grp_sex" />
+</div>
+<div class="form-group row">
+  <label class="col-md-2 col-form-label text-md-right">OS</label>
+  <div class="col-md-10">
+    <div class="form-check-inline">
+      <input type="checkbox" name="os" id="windows" value="win" class="form-check-input">
+      <label for="windows"  class="form-check-label">Windows</label>
+    </div><div class="form-check-inline">
+      <input type="checkbox" name="os" id="mac" value="mac" class="form-check-input">
+      <label for="mac"  class="form-check-label">Mac</label>
+    </div><div class="form-check-inline">
+      <input type="checkbox" name="os" id="linux" value="linux" class="form-check-input">
+      <label for="linux"  class="form-check-label">Linux</label>
+    </div><div class="form-check-inline">
+      <input type="checkbox" name="os" id="mobile" value="4" class="form-check-input">
+      <label for="mobile"  class="form-check-label">MobilePhone</label>
+    </div>
+  </div>
+  <input type="hidden" value="" name="os" id="grp_os" />
+</div>
+<div class="form-group row">
+  <label for="age" class="col-md-2 col-form-label text-md-right">年齢</label>
+  <div class="col-md-10">
+    <select name="age" id="age" size="7" required  class="form-control">
+      <option value="0"> </option>
+      <option value="10">10代</option>
+      <option value="20">20代</option>
+      <option value="30">30代</option>
+      <option value="40">40代</option>
+      <option value="50">50代</option>
+      <option value="60">60代</option>
+      <option value="70">70代以上</option>
+      
+    </select>
+  </div>
+</div>
+<div class="form-group row">
+  <div class="col-sm-2"></div>
+    <div class="col-md-5">  
+    <button type="button" class="btn btn-primary">Reset</button>
+  </div>
+  <div class="col-md-5">  
+    <button type="button" class="btn btn-primary">Send</button>
+  </div>
+
+</div>
+<div class="form-group row">
+  <label for="UpdateDate" class="col-md-2 col-form-label text-md-right">更新日</label>
+  <div class="col-md-10">
+    <input type="date" name="UpdateDate" id="UpdateDate" size="8" placeholder=""   class="form-control is-valid">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="updateTime" class="col-md-2 col-form-label text-md-right">更新時間</label>
+  <div class="col-md-10">  
+    <input type="time" name="updateTime" id="updateTime" size="8" step="15"  class="form-control">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="uploadFile" class="col-md-2 col-form-label text-md-right">アップロード</label>
+  <div class="col-md-10">  
+    <input type="file" name="uploadFile" id="uploadFile" size="8"  class="form-control-file">
+  </div>
+</div>
+
+</div>
+</div>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+

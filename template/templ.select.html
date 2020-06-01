@@ -1,0 +1,9 @@
+<div class="form-group row">
+  <label for="${id}" class="col-md-2 col-form-label text-md-right">${displayString}</label>
+  <div class="col-md-10">
+    <select name="${name}" id="${id}" size="${size}" required ${attributes} class="form-control">
+      <!-- $BeginBlock Options --><option value="${valueOpt}">${displayStringOpt}</option>
+      <!-- $EndBlock Options -->${descriptionTag}
+    </select>
+  </div>
+</div>

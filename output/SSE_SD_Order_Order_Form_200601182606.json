@@ -1,0 +1,479 @@
+﻿[
+    {
+        "sheetName": "Order",
+        "name": "userFirstName",
+        "type": "text",
+        "id": "userFirstName",
+        "tag": "input",
+        "displayString": "お名前",
+        "description": "",
+        "rowPos": 14,
+        "colPos": 9,
+        "rowCnt": 1,
+        "colCnt": 8,
+        "objectName": "RangeName",
+        "valuetype": "Number",
+        "address": "$I$14",
+        "autofocus": true,
+        "maxlength": 32,
+        "placeholder": "姓",
+        "_id": "C13A752B-E81B-6773-9193-E174DB4A4105",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "userLastName",
+        "type": "text",
+        "id": "userLastName",
+        "tag": "input",
+        "displayString": "お名前",
+        "description": "",
+        "rowPos": 14,
+        "colPos": 18,
+        "rowCnt": 1,
+        "colCnt": 8,
+        "objectName": "RangeName",
+        "valuetype": "Number",
+        "address": "$R$14",
+        "maxlength": 32,
+        "placeholder": "名",
+        "_id": "86DCABF5-76A3-68C8-9839-7AD65428395D",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "userFirstNameKana",
+        "type": "text",
+        "id": "userFirstNameKana",
+        "tag": "input",
+        "displayString": "ふりがな",
+        "description": "",
+        "rowPos": 16,
+        "colPos": 9,
+        "rowCnt": 1,
+        "colCnt": 8,
+        "objectName": "RangeName",
+        "valuetype": "Number",
+        "address": "$I$16",
+        "placeholder": "姓（ふりがな）",
+        "_id": "C4474517-3D9B-E581-A6E2-E95273F2058E",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "userLastNameKana",
+        "type": "text",
+        "id": "userLastNameKana",
+        "tag": "input",
+        "displayString": "ふりがな",
+        "description": "",
+        "rowPos": 16,
+        "colPos": 18,
+        "rowCnt": 1,
+        "colCnt": 8,
+        "objectName": "RangeName",
+        "valuetype": "Number",
+        "address": "$R$16",
+        "maxlength": 32,
+        "placeholder": "名（ふりがな）",
+        "_id": "73AB9C2C-3E11-C672-831B-8837BB6EB1AB",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "zipCode",
+        "type": "text",
+        "id": "zipCode",
+        "tag": "input",
+        "displayString": "郵便番号",
+        "description": "",
+        "rowPos": 18,
+        "colPos": 9,
+        "rowCnt": 1,
+        "colCnt": 8,
+        "objectName": "RangeName",
+        "valuetype": "Number",
+        "address": "$I$18",
+        "_id": "0664FCA6-B457-E2A5-8316-E87F3664828E",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "prefecture",
+        "type": "select",
+        "id": "prefecture",
+        "tag": "select",
+        "displayString": "都道府県",
+        "description": "",
+        "rowPos": 20,
+        "colPos": 9,
+        "rowCnt": 1,
+        "colCnt": 5,
+        "objectName": "RangeName",
+        "valuetype": "Number",
+        "address": "$I$20",
+        "options": [
+            {
+                "displayStringOpt": "北海道",
+                "valueOpt": 1
+            },
+            {
+                "displayStringOpt": "青森県",
+                "valueOpt": 2
+            },
+            {
+                "displayStringOpt": "岩手県",
+                "valueOpt": 3
+            },
+            {
+                "displayStringOpt": "宮城県",
+                "valueOpt": 4
+            },
+            {
+                "displayStringOpt": "秋田県",
+                "valueOpt": 5
+            },
+            {
+                "displayStringOpt": "山形県",
+                "valueOpt": 6
+            },
+            {
+                "displayStringOpt": "福島県",
+                "valueOpt": 7
+            },
+            {
+                "displayStringOpt": "茨城県",
+                "valueOpt": 8
+            },
+            {
+                "displayStringOpt": "栃木県",
+                "valueOpt": 9
+            },
+            {
+                "displayStringOpt": "群馬県",
+                "valueOpt": 10
+            },
+            {
+                "displayStringOpt": "埼玉県",
+                "valueOpt": 11
+            },
+            {
+                "displayStringOpt": "千葉県",
+                "valueOpt": 12
+            },
+            {
+                "displayStringOpt": "東京都",
+                "valueOpt": 13
+            },
+            {
+                "displayStringOpt": "神奈川県",
+                "valueOpt": 14
+            },
+            {
+                "displayStringOpt": "新潟県",
+                "valueOpt": 15
+            },
+            {
+                "displayStringOpt": "富山県",
+                "valueOpt": 16
+            },
+            {
+                "displayStringOpt": "石川県",
+                "valueOpt": 17
+            },
+            {
+                "displayStringOpt": "福井県",
+                "valueOpt": 18
+            },
+            {
+                "displayStringOpt": "山梨県",
+                "valueOpt": 19
+            },
+            {
+                "displayStringOpt": "長野県",
+                "valueOpt": 20
+            },
+            {
+                "displayStringOpt": "岐阜県",
+                "valueOpt": 21
+            },
+            {
+                "displayStringOpt": "静岡県",
+                "valueOpt": 22
+            },
+            {
+                "displayStringOpt": "愛知県",
+                "valueOpt": 23
+            },
+            {
+                "displayStringOpt": "三重県",
+                "valueOpt": 24
+            },
+            {
+                "displayStringOpt": "滋賀県",
+                "valueOpt": 25
+            },
+            {
+                "displayStringOpt": "京都府",
+                "valueOpt": 26
+            },
+            {
+                "displayStringOpt": "大阪府",
+                "valueOpt": 27
+            },
+            {
+                "displayStringOpt": "兵庫県",
+                "valueOpt": 28
+            },
+            {
+                "displayStringOpt": "奈良県",
+                "valueOpt": 29
+            },
+            {
+                "displayStringOpt": "和歌山県",
+                "valueOpt": 30
+            },
+            {
+                "displayStringOpt": "鳥取県",
+                "valueOpt": 31
+            },
+            {
+                "displayStringOpt": "島根県",
+                "valueOpt": 32
+            },
+            {
+                "displayStringOpt": "岡山県",
+                "valueOpt": 33
+            },
+            {
+                "displayStringOpt": "広島県",
+                "valueOpt": 34
+            },
+            {
+                "displayStringOpt": "山口県",
+                "valueOpt": 35
+            },
+            {
+                "displayStringOpt": "徳島県",
+                "valueOpt": 36
+            },
+            {
+                "displayStringOpt": "香川県",
+                "valueOpt": 37
+            },
+            {
+                "displayStringOpt": "愛媛県",
+                "valueOpt": 38
+            },
+            {
+                "displayStringOpt": "高知県",
+                "valueOpt": 39
+            },
+            {
+                "displayStringOpt": "福岡県",
+                "valueOpt": 40
+            },
+            {
+                "displayStringOpt": "佐賀県",
+                "valueOpt": 41
+            },
+            {
+                "displayStringOpt": "長崎県",
+                "valueOpt": 42
+            },
+            {
+                "displayStringOpt": "熊本県",
+                "valueOpt": 43
+            },
+            {
+                "displayStringOpt": "大分県",
+                "valueOpt": 44
+            },
+            {
+                "displayStringOpt": "宮崎県",
+                "valueOpt": 45
+            },
+            {
+                "displayStringOpt": "鹿児島県",
+                "valueOpt": 46
+            },
+            {
+                "displayStringOpt": "沖縄県",
+                "valueOpt": 47
+            }
+        ],
+        "_id": "4F165727-4982-EA86-8C7B-9C03125208A8",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "address1",
+        "type": "text",
+        "id": "address1",
+        "tag": "input",
+        "displayString": "住所１",
+        "description": "",
+        "rowPos": 22,
+        "colPos": 9,
+        "rowCnt": 1,
+        "colCnt": 15,
+        "objectName": "RangeName",
+        "valuetype": "Number",
+        "address": "$I$22",
+        "_id": "B8945C0B-CB16-DC6E-B1E5-8C19749A44CC",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "address2",
+        "type": "text",
+        "id": "address2",
+        "tag": "input",
+        "displayString": "住所２",
+        "description": "",
+        "rowPos": 24,
+        "colPos": 9,
+        "rowCnt": 1,
+        "colCnt": 15,
+        "objectName": "RangeName",
+        "valuetype": "Number",
+        "address": "$I$24",
+        "_id": "9FE3AF48-2FA0-922C-9146-5EF6422A66B5",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "size",
+        "type": "radio",
+        "id": "grp_size",
+        "tag": "input",
+        "text": "",
+        "displayString": "サイズ",
+        "inputValue": "xl",
+        "description": "",
+        "rowPos": 26,
+        "colPos": 9,
+        "rowCnt": 1,
+        "colCnt": 9,
+        "linkedCell": "",
+        "objectName": "FormControl",
+        "objectType": "groupbox",
+        "address": "$I$26:$Q$26",
+        "_id": "8624AD73-D65C-374D-A66D-9E85D44350BD",
+        "values": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
+        "inputValue2": [
+            4,
+            4,
+            4,
+            4
+        ],
+        "elms": [
+            {
+                "name": "size",
+                "elmType": "radio",
+                "elmId": "s",
+                "elmLinkedAddress": "$Y$26",
+                "elmValue": "s",
+                "elmDisplayString": "S",
+                "elmInputValue": 4
+            },
+            {
+                "name": "size",
+                "elmType": "radio",
+                "elmId": "m",
+                "elmLinkedAddress": "$Y$26",
+                "elmValue": "m",
+                "elmDisplayString": "M",
+                "elmInputValue": 4
+            },
+            {
+                "name": "size",
+                "elmType": "radio",
+                "elmId": "l",
+                "elmLinkedAddress": "$Y$26",
+                "elmValue": "l",
+                "elmDisplayString": "L",
+                "elmInputValue": 4
+            },
+            {
+                "name": "size",
+                "elmType": "radio",
+                "elmId": "xl",
+                "elmLinkedAddress": "$Y$26",
+                "elmValue": "xl",
+                "elmDisplayString": "XL",
+                "elmInputValue": 4
+            }
+        ],
+        "elmIds": [
+            "rdo_s",
+            "rdo_m",
+            "rdo_l",
+            "rdo_xl"
+        ],
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "note",
+        "type": "textarea",
+        "id": "note",
+        "tag": "textarea",
+        "displayString": "ご意見",
+        "description": "",
+        "rowPos": 28,
+        "colPos": 9,
+        "rowCnt": 5,
+        "colCnt": 15,
+        "objectName": "RangeName",
+        "valuetype": "Number",
+        "address": "$I$28",
+        "_id": "933917E4-C64E-9961-AAED-08E6A8875641",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    },
+    {
+        "sheetName": "Order",
+        "name": "btn_submit",
+        "type": "bottun",
+        "tag": "div",
+        "title": "",
+        "value": "Submit",
+        "description": "",
+        "rowPos": 34,
+        "colPos": 14,
+        "rowCnt": 1,
+        "colCnt": 5,
+        "objectName": "AutoShape",
+        "objectType": "Rectangle",
+        "address": "$N$34:$R$34",
+        "_id": "8EA7A1BB-7235-C18B-A5FC-AED62ECA6032",
+        "_source": "'SSE_SD_Order.xlsx'!Order",
+        "_source_date": "2020-06-01T06:52:45.000Z",
+        "_created": "2020-06-01T09:26:03.000Z"
+    }
+]

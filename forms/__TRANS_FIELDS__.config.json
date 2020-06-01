@@ -1,0 +1,9 @@
+{
+    "COMMON_FIELD": [
+        "SystemId", "SystemName", "DocCd", "DocName", "created", "updated","Class_Id","Class_Name","Package_Id", "SheetVersion"
+    ],
+    "SCREEN_FIELD": [
+        "PageTitle", "UrlBar"
+    ],
+    "APP_NAME": "ScreenFieldsSheet"
+}

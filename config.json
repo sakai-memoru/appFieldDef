@@ -1,0 +1,18 @@
+{
+	"BASE_FOLDER": "",
+	"INPUT_FOLDER": "input",
+	"OUTPUT_FOLDER": "output",
+	"TEMP_FOLDER": "input/temp",
+	"BACKUP_FOLDER": "input/backup",
+	"FORM_FOLDER": "forms",
+	"FIELD_DEF": {
+		"SHEET_TYPE": "FIELD",
+		"INPUT_LIKE": "SSE*.xlsx",
+		"FORM_FILE": "__TRANS_FIELDS__.xlsm",
+		"FORM_SHEET": "form",
+		"MACRO_GET_METHOD": "GetFields"
+	},
+	"CONTROL_PREFIX": "__",
+	"SOURCE_FROM": "_source",
+	"APP_NAME" : "appFieldDef"
+}

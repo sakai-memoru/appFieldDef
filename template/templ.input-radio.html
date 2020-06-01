@@ -1,0 +1,11 @@
+<div class="form-group row">
+  <label class="col-md-2 col-form-label text-md-right">${displayString}</label>
+  <div class="col-md-10">
+    <!-- $BeginBlock elms --><div class="form-check-inline">
+      <label for="${elmId}"  class="form-check-label">
+        <input type="radio" name="${name}" id="${elmId}" value="${elmValue}" class="form-check-input">${elmDisplayString}
+      </label>
+    </div><!-- $EndBlock elms -->${descriptionTag}
+  </div>
+  <input type="hidden" value="" name="${name}" id="${id}" />
+</div>
