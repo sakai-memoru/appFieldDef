@@ -1,6 +1,6 @@
-# [Excel VBA ]appFormDef
+# [Excel VBA ]appFormDef :
 
-## overveiw
+## overveiw :
 
 - プロトタイプを作成する際に、利用する画面レイアウトから、HTMLファイルを生成するVBAツール  
 
@@ -10,15 +10,15 @@
 - 画面レイアウトにて定義した情報をもとに、定義情報をJSONファイルに出力する。  
 - 画面レイアウトにて定義した情報をもとに、プロトタイプ用のHTMLフォームのHTMLを生成する。  
 
-## Installation
+## Installation :
 
 - GitHubより、Cloneする。  
 
-## Usage
+## Usage :
 - アプリ本体  ：appFieldDef.xlsm  
 - アプリconfig：config.json  
-- 定義情報取得form：forms/__TRANS_FIELDS__.xlsm  
-- 定義情報取得config：forms/__TRANS_FIELDS__.config.json 
+- 定義情報取得form：forms/_\_\TRANS_FIELDS__.xlsm  
+- 定義情報取得config：forms/_\_\TRANS_FIELDS__.config.json 
 
 - 初期コンフィグ設定  
 ```
@@ -42,6 +42,6 @@
 }
 ```
 
-## note
+## note :
 - 落ち着いたら、もう少し記述を追加します。  
 
