@@ -17,10 +17,15 @@
 - GitHubより、Cloneする。  
 
 ## Usage :
-- アプリ本体  ：appFieldDef.xlsm  
-- アプリconfig：config.json  
-- 定義情報取得form：forms/_\_TRANS_FIELDS__.xlsm  
-- 定義情報取得config：forms/_\_TRANS_FIELDS__.config.json 
+- 以下を配置
+  - アプリ本体  ：appFieldDef.xlsm  
+  - アプリconfig：config.json  
+  - 定義情報取得form：forms/_\_TRANS_FIELDS__.xlsm  
+  - 定義情報取得config：forms/_\_TRANS_FIELDS__.config.json 
+- appFieldDef.xlsmを開く。  
+
+![image](https://gyazo.com/76dc4c13106ac9fc03dbb064d6c37f43.png)  
+
 
 ### 初期コンフィグ設定 :
    
