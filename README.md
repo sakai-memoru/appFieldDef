@@ -69,3 +69,12 @@
 ## note :
 - 落ち着いたら、もう少し記述を追加します。  
 
+## reference :
+
+- 以下の外部ライブラリを使用しています。  
+  + VBA-JSON : JsonConverter.bas  
+    - https://github.com/VBA-tools/VBA-JSON  
+  + MiniTemplator  
+    - https://www.source-code.biz/MiniTemplator/  
+
+// --- end of README.md
