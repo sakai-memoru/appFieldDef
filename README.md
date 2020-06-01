@@ -1,27 +1,28 @@
-# [Excel VBA] appFormDef :
+# [Excel VBA] appFormDef : 画面レイアウトからHTMLを生成するツール
 
 ## overveiw :
 
-- プロトタイプでForm画面を作成する際に、利用するVBA設計補助ツール。
+- プロトタイプでForm画面を作成する際に利用する設計補助ツール(VBA Excel)。
 - 画面レイアウト設計書から、HTMLファイルを生成する。設計情報は、JSONファイルにも出力できる。
 
 ### 機能 :
-- Excelにて、画面レイアウトを作成する。  
-  + 画面レイアウト作成では、あるルールに沿って、レイアウトするコンポーネントを配置すること。
-
-- 画面レイアウトにて定義した情報をもとに、定義情報をJSONファイルに出力する。  
-- 画面レイアウトにて定義した情報をもとに、プロトタイプ用のHTMLフォームのHTMLを生成する。  (CSSはBootstrap4)
+- Excelにて、画面レイアウトを作成し、指定フォルダ（input folder)に配置する。  
+  + 画面レイアウト定義では、ルールに沿って、レイアウトするコンポーネントを配置すること。
+- メニューより、以下の機能を利用する。
+  + 画面レイアウトにて定義した情報をもとに、定義情報をJSONファイルに出力する。  
+  + 画面レイアウトにて定義した情報をもとに、プロトタイプ用のHTMLフォームのHTMLを生成する。  (CSSはBootstrap4)
 
 ## Installation :
 
 - GitHubより、Cloneする。  
 
 ## Usage :
-- 以下を配置
+- アプリは以下。
   - アプリ本体  ：appFieldDef.xlsm  
   - アプリconfig：config.json  
   - 定義情報取得form：forms/_\_TRANS_FIELDS__.xlsm  
   - 定義情報取得config：forms/_\_TRANS_FIELDS__.config.json 
+
 - appFieldDef.xlsmを開く。  
 
 ![image](https://gyazo.com/76dc4c13106ac9fc03dbb064d6c37f43.png)  
@@ -59,7 +60,7 @@
 ![image html](https://gyazo.com/207f59e741bf505395ba26f6fb4aabdc.png)  
 
 - Excel Layout : SSE_SD_User.xlsx  
-![image excel2](https://gyazo.com/e4f9887b28f1d46137773ddb27c363a6.png)
+![image excel2](https://gyazo.com/9c3788f029f4f7fe9e098e2744e4bbaa.png)
 
 - HTML Layout : SSE_SD_User_User_Form_200601191504.html  
 ![image html](https://gyazo.com/dde2bd52d2c1ba632201f95440acb7e4.png)  

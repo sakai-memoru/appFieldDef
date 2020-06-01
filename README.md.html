@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="mded-output-date" content="2020/06/01 10:32:32">
+<meta http-equiv="mded-output-date" content="2020/06/01 23:18:01">
 <title>README.md</title>
 <META http-equiv="Content-Style-Type" content="text/css">
 <style type="text/css"><!--
@@ -79,32 +79,33 @@ background-color: #80FF80;
 </head>
 <body>
 <div class="markdown-content"><a name="toc-top"></a>
-<a name="toc-1"></a><h1>[Excel VBA] appFormDef :</h1>
+<a name="toc-1"></a><h1>[Excel VBA] appFormDef : 画面レイアウトからHTMLを生成するツール</h1>
 
 <a name="toc-1-1"></a><h2>overveiw :</h2>
 
-<ul><li>プロトタイプでForm画面を作成する際に、利用するVBA設計補助ツール。
+<ul><li>プロトタイプでForm画面を作成する際に利用する設計補助ツール(VBA Excel)。
 <li>画面レイアウト設計書から、HTMLファイルを生成する。設計情報は、JSONファイルにも出力できる。
 </ul>
 <a name="toc-1-1-1"></a><h3>機能 :</h3>
-<ul><li>Excelにて、画面レイアウトを作成する。
-<li><p>画面レイアウト作成では、あるルールに沿って、レイアウトするコンポーネントを配置すること。<br>
-
-</p><li><p>画面レイアウトにて定義した情報をもとに、定義情報をJSONファイルに出力する。
-</p><li>画面レイアウトにて定義した情報をもとに、プロトタイプ用のHTMLフォームのHTMLを生成する。 &nbsp;(CSSはBootstrap4)
+<ul><li>Excelにて、画面レイアウトを作成し、指定フォルダ（input folder)に配置する。
+<li>画面レイアウト定義では、ルールに沿って、レイアウトするコンポーネントを配置すること。
+<li>メニューより、以下の機能を利用する。
+<li>画面レイアウトにて定義した情報をもとに、定義情報をJSONファイルに出力する。
+<li>画面レイアウトにて定義した情報をもとに、プロトタイプ用のHTMLフォームのHTMLを生成する。 &nbsp;(CSSはBootstrap4)
 </ul>
 <a name="toc-1-2"></a><h2>Installation :</h2>
 
 <ul><li>GitHubより、Cloneする。
 </ul>
 <a name="toc-1-3"></a><h2>Usage :</h2>
-<ul><li>以下を配置
+<ul><li>アプリは以下。
 <li>アプリ本体 &nbsp;：appFieldDef.xlsm
 <li>アプリconfig：config.json
 <li>定義情報取得form：forms/<em>_TRANS_FIELDS</em>_.xlsm
-<li>定義情報取得config：forms/<em>_TRANS_FIELDS</em>_.config.json
-<li>appFieldDef.xlsmを開く。
-</ul>
+<li><p>定義情報取得config：forms/<em>_TRANS_FIELDS</em>_.config.json<br>
+
+</p><li><p>appFieldDef.xlsmを開く。
+</p></ul>
 <p><img src="https://gyazo.com/76dc4c13106ac9fc03dbb064d6c37f43.png" alt="image">
 </p><br>
 
@@ -139,7 +140,7 @@ background-color: #80FF80;
 <img src="https://gyazo.com/207f59e741bf505395ba26f6fb4aabdc.png" alt="image html"><br>
 
 </p><li><p>Excel Layout : SSE_SD_User.xlsx<br>
-<img src="https://gyazo.com/e4f9887b28f1d46137773ddb27c363a6.png" alt="image excel2"><br>
+<img src="https://gyazo.com/9c3788f029f4f7fe9e098e2744e4bbaa.png" alt="image excel2"><br>
 
 </p><li><p>HTML Layout : SSE_SD_User_User_Form_200601191504.html<br>
 <img src="https://gyazo.com/dde2bd52d2c1ba632201f95440acb7e4.png" alt="image html">
