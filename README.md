@@ -55,8 +55,8 @@
 - Excel Layout : SSE_SD_Order.xlsx  
 ![image excel](https://gyazo.com/aabe9329bfb59a21ac59675e2f520beb.png)
 
-- HTML Layout : SSE_SD_User_User_Form_200601191504.html  
-![image HTML](https://gyazo.com/c65a53375ca47abc1ae17b7591a24251.png)
+- HTML Layout : SSE_SD_Order_Order_Form_200601182618.html  
+![image HTML](https://gyazo.com/e4f9887b28f1d46137773ddb27c363a6.png)
 
 
 ## note :
