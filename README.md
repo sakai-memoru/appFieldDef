@@ -50,6 +50,15 @@
 }
 ```
 
+## Execution sample
+
+- Excel Layout : SSE_SD_Order.xlsx  
+![image excel](https://gyazo.com/aabe9329bfb59a21ac59675e2f520beb.png)
+
+- HTML Layout : SSE_SD_User_User_Form_200601191504.html  
+![image HTML](https://gyazo.com/c65a53375ca47abc1ae17b7591a24251.png)
+
+
 ## note :
 - 落ち着いたら、もう少し記述を追加します。  
 
