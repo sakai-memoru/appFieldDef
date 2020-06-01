@@ -17,8 +17,8 @@
 ## Usage :
 - アプリ本体  ：appFieldDef.xlsm  
 - アプリconfig：config.json  
-- 定義情報取得form：forms/_\_\TRANS_FIELDS__.xlsm  
-- 定義情報取得config：forms/_\_\TRANS_FIELDS__.config.json 
+- 定義情報取得form：forms/_\_TRANS_FIELDS__.xlsm  
+- 定義情報取得config：forms/_\_TRANS_FIELDS__.config.json 
 
 - 初期コンフィグ設定  
 ```
