@@ -16,6 +16,12 @@
 
 - GitHubより、Cloneする。  
 
+- 参照設定が必要。  
+
+![image](https://gyazo.com/7d30f2387e7818067fd7596a82e507e9.png) 
+
+
+
 ## Usage :
 - アプリは以下。
   - アプリ本体  ：appFieldDef.xlsm  
