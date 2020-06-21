@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="mded-output-date" content="2020/06/02 01:31:18">
+<meta http-equiv="mded-output-date" content="2020/06/21 23:12:34">
 <title>README.md</title>
 <META http-equiv="Content-Style-Type" content="text/css">
 <style type="text/css"><!--
@@ -79,7 +79,7 @@ background-color: #80FF80;
 </head>
 <body>
 <div class="markdown-content"><a name="toc-top"></a>
-<a name="toc-1"></a><h1>[Excel VBA] appFormDef : 画面レイアウトからHTMLを生成するツール</h1>
+<a name="toc-1"></a><h1>[Excel VBA] appFieldDef : 画面レイアウトからHTMLを生成するツール</h1>
 
 <a name="toc-1-1"></a><h2>overveiw :</h2>
 
@@ -88,34 +88,43 @@ background-color: #80FF80;
 </ul>
 <a name="toc-1-1-1"></a><h3>機能 :</h3>
 <ul><li>Excelにて、画面レイアウトを作成し、指定フォルダ（input folder)に配置する。
-<li>画面レイアウト定義では、ルールに沿って、レイアウトするコンポーネントを配置すること。
-<li>メニューより、以下の機能を利用する。
-<li>画面レイアウトにて定義した情報をもとに、定義情報をJSONファイルに出力する。
+<ul><li>画面レイアウト定義では、ルールに沿って、レイアウトするコンポーネントを配置すること。
+</ul><li>メニューより、以下の機能を利用する。
+<ul><li>画面レイアウトにて定義した情報をもとに、定義情報をJSONファイルに出力する。
 <li>画面レイアウトにて定義した情報をもとに、プロトタイプ用のHTMLフォームのHTMLを生成する。 &nbsp;(CSSはBootstrap4)
+</ul></ul>
+<a name="toc-1-2"></a><h2>実行環境 :</h2>
+
+<ul><li>Microsoft Excel for Microsoft 365 MSO (16.0.13001.20142) 32-bit
 </ul>
-<a name="toc-1-2"></a><h2>Installation :</h2>
+<a name="toc-1-3"></a><h2>Installation :</h2>
 
-<ul><li><p>GitHubより、Cloneする。<br>
+<ul><li><p>GitHubより、Cloneする。
+<ul><li> https://github.com/sakai-memoru/appFieldDef<br>
 
-</p><li><p>参照設定が必要。
+</ul></p><li><p>参照設定が必要。
 </p></ul>
 <p><img src="https://gyazo.com/7d30f2387e7818067fd7596a82e507e9.png" alt="image">
 </p><br>
 <br>
 
-<a name="toc-1-3"></a><h2>Usage :</h2>
-<ul><li>アプリは以下。
-<li>アプリ本体 &nbsp;：appFieldDef.xlsm
-<li>アプリconfig：config.json
+<a name="toc-1-4"></a><h2>Usage :</h2>
+<ul><li><p>アプリは以下。
+<ul><li>アプリ本体 &nbsp;：appFieldDef.xlsm
+<ul><li>Batch : FieldDefMain.bas
+<ul><li>OutputJson
+<li>OutputTemplate
+</ul></ul><li>アプリconfig：config.json
 <li>定義情報取得form：forms/<em>_TRANS_FIELDS</em>_.xlsm
-<li><p>定義情報取得config：forms/<em>_TRANS_FIELDS</em>_.config.json<br>
+<ul><li>GetFields &nbsp;: TransFields.bas
+</ul><li>定義情報取得config：forms/<em>_TRANS_FIELDS</em>_.config.json<br>
 
-</p><li><p>appFieldDef.xlsmを開く。
+</ul></p><li><p>appFieldDef.xlsmを開く。
 </p></ul>
 <p><img src="https://gyazo.com/76dc4c13106ac9fc03dbb064d6c37f43.png" alt="image">
 </p><br>
 
-<a name="toc-1-3-2"></a><h3>初期コンフィグ設定 :</h3>
+<a name="toc-1-4-2"></a><h3>初期コンフィグ設定 :</h3>
 
 <pre>{
   "BASE_FOLDER": "", 
@@ -126,7 +135,7 @@ background-color: #80FF80;
   "FORM_FOLDER": "forms",       // formアプリの配置
   "FIELD_DEF": {
     "SHEET_TYPE": "FIELD",
-    "INPUT_LIKE": "SSE*.xlsx",  // 対象inputシート名
+    "INPUT_LIKE": "SSE_BD_SD*.xlsx",  // 対象inputシート名
     "FORM_FILE": "__TRANS_FIELDS__.xlsm",
     "FORM_SHEET": "form",
     "MACRO_GET_METHOD": "GetFields"
@@ -137,7 +146,11 @@ background-color: #80FF80;
 }
 </pre>
 
-<a name="toc-1-4"></a><h2>Execution sample</h2>
+<a name="toc-1-4-3"></a><h3>Environment :</h3>
+
+<p><img src="https://gyazo.com/ca8236f45f17fe16e8eac31618e166ff.png" alt="env">
+</p>
+<a name="toc-1-5"></a><h2>Execution sample :</h2>
 
 <ul><li><p>Excel Layout : SSE_SD_Order.xlsx<br>
 <img src="https://gyazo.com/aabe9329bfb59a21ac59675e2f520beb.png" alt="image excel"><br>
@@ -150,12 +163,31 @@ background-color: #80FF80;
 
 </p><li><p>HTML Layout : SSE_SD_User_User_Form_200601191504.html<br>
 <img src="https://gyazo.com/dde2bd52d2c1ba632201f95440acb7e4.png" alt="image html">
-</p></ul><br>
+</p></ul>
+<a name="toc-1-6"></a><h2>application I/F :</h2>
 
-<a name="toc-1-5"></a><h2>note :</h2>
+<pre>'''' **********************************************
+'''' @file FieldDefMain.bas
+'''' @parent appFieldDef.xlsm
+''''
+
+Public Function Batch(ByVal datatype As String, _
+                      Optional ByVal outTemplOn As Variant = False, _
+                      Optional ByVal moveOn As Variant = False) As Variant
+'''' **********************************************
+'''' @function batch
+'''' @param datatype {String} 処理データタイプ "FIELD_DEF"
+'''' @param outTemplOn {Variant&lt;boolean&gt;}
+''''            Template出力flag
+'''' @param moveOn  {Variant&lt;boolean&gt;}
+''''            Inputファイル移動flag
+''
+</pre>
+
+<a name="toc-1-7"></a><h2>note :</h2>
 <ul><li>落ち着いたら、もう少し記述を追加します。
 </ul>
-<a name="toc-1-6"></a><h2>reference :</h2>
+<a name="toc-1-8"></a><h2>reference :</h2>
 
 <ul><li>以下の外部ライブラリを使用しています。
 <li>VBA-JSON : JsonConverter.bas
